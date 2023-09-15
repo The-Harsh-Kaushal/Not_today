@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border-style: none;
+}
+html{
+    font-size: 62.5%;
+    font-family: fantasy;
+    
+}
+
+header{
+    padding: 15px 50px;
+    display: flex;
+    box-shadow: 0px 3px 10px rgba(12, 6, 6, 0.929);
+    
+    justify-content: space-between;
+    align-items: center;
+   background-color: rgb(32, 45, 44);
+   height: 2vh;
+   border-radius: 0px 0px 2px 2px;
+}
+body{
+    background: url(images/home_page.png) no-repeat;
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin:  0 0.5rem;
+    color: rgb(160, 79, 54);
+    text-shadow: 0px 1px 1px black;
+    padding: 1rem 1.5rem;
+    /* letter-spacing: 1px; */
+}
+.btn{
+   cursor: pointer;
+    align-items: center;
+   display: none;
+}
+@media(max-width : 780px){
+ .btn{
+    display: flex;
+    font-size: 20px;
+ }
+ .navbar{
+    transition: 0.5s ease-in-out;
+    position: fixed;
+     color: white;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    min-height: 100vh;
+    background-color: black;
+    justify-content: start;
+    align-items: flex-start;
+    top: 0; 
+    right: 0;
+   padding: 8rem 0 0 0;
+   right: -100vw;
+ }
+ .close-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    margin: 10px;
+ }
+ 
+}
