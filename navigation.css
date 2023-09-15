@@ -7,8 +7,6 @@
 html{
     font-size: 62.5%;
     font-family: 'Londrina Solid', cursive;
-/* font-family: 'Londrina Outline', cursive; */
-
 }
 
 header{
@@ -17,7 +15,7 @@ header{
     box-shadow: 0px 3px 10px rgba(12, 6, 6, 0.929);
     justify-content: space-between;
     align-items: center;
-   background-color: #123456;
+   background-color: #36454F;
    height: 2vh;
    border-radius: 0px 0px 2px 2px;
 }
@@ -27,20 +25,19 @@ body{
     overflow: hidden;
     
 }
-.navbar a:hover{
- font-family: 'Londrina Outline', cursive;
- color: white;
- text-shadow: 0px 2px 10px yellowgreen;
- text-decoration: dotted;
-}
-header .navbar a{
+.navbar a{
     font-size: 2rem;
-    font-weight: 500;
     margin:  0 0.5rem;
-    color: #cae9ea;
+    color: #EDEADE;
+    text-transform: uppercase;
     text-shadow: 0px 1px 1px #208c8c;
     padding: 1rem 1.5rem;
-    /* letter-spacing: 1px; */
+}
+.navbar a:hover{
+ font-family: 'Londrina Outline', cursive;
+ text-decoration: underline white;
+ color: white;
+ text-decoration: dotted;
 }
 .btn{
    cursor: pointer;
