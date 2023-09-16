@@ -19,12 +19,6 @@ header{
    height: 2vh;
    border-radius: 0px 0px 2px 2px;
 }
-body{
-    /* background: url(images/home_page.png) no-repeat; */
-    background-color: black;
-    overflow: hidden;
-    
-}
 .navbar a{
     font-size: 2rem;
     margin:  0 0.5rem;
