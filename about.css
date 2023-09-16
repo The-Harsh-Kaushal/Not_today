@@ -6,7 +6,7 @@ h1 ,h2{
     font-family: 'Arimo', sans-serif;
     color: #36454F;
     font-weight: bold;
-    margin: 20px;
+    margin: 20px 0px;
 }
 body{
     background-color: #485461;
@@ -37,4 +37,9 @@ list-style:decimal;
 hr{
     border: 2px solid #485461; 
     box-shadow: 0px , 2px , 5px white;
+}
+@media (max-width: 750px){
+    h1,h2{
+        font-size: 20px;
+    }
 }
