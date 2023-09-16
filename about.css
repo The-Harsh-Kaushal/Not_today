@@ -40,6 +40,9 @@ hr{
 }
 @media (max-width: 750px){
     h1,h2{
-        font-size: 30px;
+        font-size: 40px;
+    }
+    .first ,.second ,.third{
+        font-size: 25px;
     }
 }
