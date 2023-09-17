@@ -4,75 +4,12 @@
     text-decoration: none;
     border-style: none;
 }
-html{
-    font-size: 62.5%;
-    font-family: 'Londrina Solid', cursive;
-}
 
-header{
-    padding: 15px 50px;
-    display: flex;
-    box-shadow: 0px 3px 10px rgba(12, 6, 6, 0.929);
-    justify-content: space-between;
-    align-items: center;
-   background-color: #36454F;
-   height: 2vh;
-   border-radius: 0px 0px 2px 2px;
-}
 body{
-    /* background: url(images/home_page.png) no-repeat; */
+   background-image: url(images/background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
     background-color: black;
     overflow: hidden;
-    
-}
-.navbar a{
-    font-size: 2rem;
-    margin:  0 0.5rem;
-    color: #EDEADE;
-    text-transform: uppercase;
-    text-shadow: 0px 1px 1px #208c8c;
-    padding: 1rem 1.5rem;
-}
-.navbar a:hover{
- font-family: 'Londrina Outline', cursive;
- text-decoration: underline white;
- color: white;
- text-decoration: dotted;
-}
-.btn{
-   cursor: pointer;
-    align-items: center;
-   display: none;
-}
-@media(max-width : 780px){
- .btn{
-    display: flex;
-    font-size: 20px;
- }
- .navbar{
-    border-radius: 15px 0px 0px 0px ;
-    box-shadow: 0px 5px 10px rgb(0, 0, 0);
-    transition: 0.5s ;
-    position: fixed;
-     color: white;
-    display: flex;
-    flex-direction: column;
-    min-width: 200px;
-    min-height: 100vh;
-    background-color: #353935	;
-    justify-content: start;
-    align-items: flex-start;
-    top: 0; 
-    right: 0;
-   padding: 8rem 0 0 0;
-   right: -100vw;
- }
- .close-btn{
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    margin: 10px;
- }
- 
 }
