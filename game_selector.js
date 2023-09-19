@@ -8,7 +8,7 @@ slides.forEach(
     }
 )
 function prev(){
-
+  playsound();
     counter --;
     if(counter>=0)
     slad();
@@ -16,6 +16,7 @@ function prev(){
     counter++;
 }
 function next(){
+    playsound();
     counter++;
     if(counter<arraylen)
     slad();
@@ -28,4 +29,9 @@ function slad() {
             slide.style.transform = `translateX(-${counter*100}%)`;
         }
     )
+}
+
+function playsound(){
+    let audio = new Audio("sounds/select.mp3");
+    audio.play();
 }

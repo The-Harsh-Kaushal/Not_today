@@ -7,3 +7,7 @@ menu.addEventListener("click",()=>{
 close.addEventListener("click",()=>{
     navbar.style.right="-100vw";
 })
+function playsound(){
+    let audio = new Audio("sounds/select.mp3");
+    audio.play();
+}
