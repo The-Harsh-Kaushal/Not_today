@@ -13,3 +13,15 @@ body{
     background-color: black;
     overflow: hidden;
 }
+.play{
+    width: 200px;
+    height: 200px;
+   overflow: hidden;
+   position: absolute;
+   top: 50%;
+   right: 0;
+}
+.play img{
+    width: 200px;
+    height: 200px;
+}
