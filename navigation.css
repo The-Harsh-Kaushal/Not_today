@@ -4,15 +4,10 @@
     text-decoration: none;
     border-style: none;
 }
-
 body{
-   background-image: url(images/background.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-    background-color: black;
     overflow: hidden;
 }
+
 .play{
     width: 200px;
     height: 200px;
@@ -25,3 +20,12 @@ body{
     width: 200px;
     height: 200px;
 }
+.background{
+  
+   position: absolute;
+   right: 0;
+   top: 0;
+  z-index: -1;
+   background-size: cover;
+}
+
