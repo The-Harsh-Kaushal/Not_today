@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     border-style: none;
 }
+
+
 html{
     font-size: 62.5%;
     font-family: 'Londrina Solid', cursive;
 }
+.logo{
+   font-family: 'Nabla', cursive;
+   font-size: 2.5rem;
+   text-transform: capitalize;
 
+}
 header{
     padding: 15px 50px;
     display: flex;
