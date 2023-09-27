@@ -21,23 +21,29 @@ body{
     height: 200px;
 }
 .background{
-  
    position: absolute;
    right: 0;
    top: 0;
   z-index: -1;
    background-size: cover;
+   width: 100vw;
+   height: 100%;
+  
+}
+.background video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .playbtn{
     display: inline;
     position: absolute;
     top: 35%;
-    left: 7%;
+    right: 0;
     mix-blend-mode: multiply;
     
 }
 .playbtn img{
     width: 235px;
-   
 }
 

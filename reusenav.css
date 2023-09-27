@@ -15,15 +15,13 @@ html{
    font-family: 'Nabla', cursive;
    font-size: 2.5rem;
    text-transform: capitalize;
-
+   
 }
 header{
     padding: 15px 50px;
     display: flex;
-    box-shadow: 0px 3px 10px rgba(29, 27, 27, 0.929);
     justify-content: space-between;
     align-items: center;
-   background-color:  #0D0D0D;
    height: 6vh;
    border-radius: 0px 0px 2px 2px;
 }
@@ -34,10 +32,10 @@ header{
     text-transform: uppercase;
     text-shadow: 0px 1px 1px #0D0D0D;
     padding: 1rem 1.5rem;
+    transition: 0.3s;
 }
 .navbar a:hover{
- font-family: 'Londrina Outline', cursive;
- color: #c0754d;
+ color: #485461;
  text-decoration: dotted;
 }
 .btn{
@@ -45,12 +43,17 @@ header{
     align-items: center;
    display: none;
 }
+
+   
+      
+   
+ 
 @media(max-width : 780px){
  .btn{
     display: flex;
     font-size: 20px;
  }
- 
+
  header{
    background-color: #0D0D0D;
  }
