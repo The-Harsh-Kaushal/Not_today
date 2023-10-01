@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +10,17 @@
 body{
     overflow: hidden;
 }
-
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    mix-blend-mode: color-burn;
+}
 .play{
     width: 200px;
     height: 200px;
@@ -35,15 +48,21 @@ body{
     height: 100%;
     object-fit: cover;
 }
-.playbtn{
-    display: inline;
-    position: absolute;
-    top: 35%;
-    right: 0;
-    mix-blend-mode: multiply;
-    
-}
-.playbtn img{
-    width: 235px;
-}
 
+
+.game_name{
+   
+    font-size: 15rem;
+    font-family: 'Dela Gothic One', cursive;
+ line-height: 18rem;
+ margin: 5% 0 0 3%;
+
+}
+.today{
+    margin-left: 5%;
+}
+.today , .not{
+    -webkit-text-stroke: 2px rgb(161,168,181);
+ text-shadow: 0 10px 20px;
+ color: rgba(0, 0, 0, 0.09);
+}

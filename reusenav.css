@@ -5,8 +5,6 @@
     text-decoration: none;
     border-style: none;
 }
-
-
 html{
     font-size: 62.5%;
     font-family: 'Londrina Solid', cursive;
@@ -15,18 +13,19 @@ html{
    font-family: 'Nabla', cursive;
    font-size: 2.5rem;
    text-transform: capitalize;
-   
 }
+
 header{
-    padding: 15px 50px;
+   
+    padding: 15px 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
    height: 6vh;
    border-radius: 0px 0px 2px 2px;
+   justify-content:space-between ;
 }
 .navbar a{
-    font-size: 18px;
+    font-size: 25px;
     margin:  0 0.5rem;
     color:  #C0C0C0;
     text-transform: uppercase;
