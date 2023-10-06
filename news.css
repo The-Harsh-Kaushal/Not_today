@@ -1,0 +1,23 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-image: url(images/background2.jpg);
+    /* background-color: black; */
+}
+ h2{
+    color: #36454F;
+    font-size: 6.5vh;
+    padding: 3vh 0 2vh 7vw;
+}
+ .image {
+    padding: 2vh 0 2vh 7vw;
+
+}
+ .content{
+    color: white;
+    width: 75%;
+    font-size: 3.2vh;
+    padding: 2vh 12vw;
+
+}

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +9,7 @@
 }
 html{
     font-size: 62.5%;
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'Lora', serif;
 }
 .logo{
    font-family: 'Nabla', cursive;
@@ -16,13 +18,13 @@ html{
 }
 
 header{
-   
     padding: 15px 20px;
     display: flex;
     align-items: center;
-   height: 6vh;
+   height: 4vh;
    border-radius: 0px 0px 2px 2px;
    justify-content:space-between ;
+   box-shadow: 0 5px 10px black;
 }
 .navbar a{
     font-size: 25px;

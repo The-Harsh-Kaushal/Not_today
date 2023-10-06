@@ -1,0 +1,120 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border-style: none;
+    
+}
+body{
+    overflow: hidden;
+    background-image: url(images/background2.jpg);
+    background-repeat: no-repeat;
+
+}
+
+
+
+.verticle{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    
+
+
+}
+.big{
+    height: 94vh;
+    width: 100%;
+}
+.horizontal{
+    display: flex;
+}
+.two{
+    line-height: 8vh;
+}
+.one , .two{
+    height: 64vh ;
+    width: 50%;
+}
+.game_mode_title{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 9vh;
+
+    font-family: 'Aleo', serif;
+   margin: 5vh;
+   text-align: center;
+
+}
+.game_modes span{
+    color: #393939;
+    text-shadow: 0 5px 0 black;
+    font-size: 7vh;
+    font-family: 'Aleo', serif;
+    text-transform: capitalize;
+    text-align: center;
+    display: none;
+}
+.glowing-btn{
+    position: absolute;
+    left: 10%;
+    bottom: 17vh;
+}
+.play-btn{
+    position: absolute;
+    right: 20%;
+    bottom: 17vh;
+}
+.text_an{
+    display: block   !important;
+    animation: text_an 3s;
+}
+.text_an2{
+    display: block !important;
+   
+}
+.one h2 span {
+
+    color: rgba(225, 225, 225, 0.9);
+
+    text-shadow: 0 1px 2px red;
+    display: none;
+    font-size: 6vh;
+    font-family: 'Aleo', serif;
+    text-transform: capitalize;
+    padding: 4vh 2vw ;
+}
+.game_name{
+    color:  393939;
+    text-shadow: 0 5px 10px red;
+    font-family: 'Creepster', cursive;
+    padding-left: 22%;
+    font-size: 20vh;
+    
+    justify-content: center;
+}
+.today{
+    margin-left: 5%;
+}
+.today , .not{
+    -webkit-text-stroke: 2px rgb(161,168,181);
+ text-shadow: 0 10px 20px;
+ color: rgba(0, 0, 0, 0.09);
+}
+
+@keyframes text_an{
+    0%,100%{
+        transform: translateX(-100%);
+        font-size: 3vh;
+    }
+    10%,90%{
+        transform: translateX(0);
+        font-size: 6vh;
+
+    }
+}

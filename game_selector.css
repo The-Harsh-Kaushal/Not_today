@@ -4,8 +4,8 @@
 }
 
 body{
-    background-color: #485461;
-background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);}
+ background-image: url(images/background2.jpg);
+}
 
 .slider{
  width: 80vw;
@@ -44,28 +44,26 @@ background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);}
     bottom: 0;
     opacity: 0;
     background-color: rgba(216, 216, 216, 0.6);
-    
      
 }
 .slider:hover{
     .title{
-
         opacity: 1;
     }
 }
 .navigation{
     text-align: center;
-    background-color: #C0C0C0;
+    background-color: #36454F;
     width: 80vw;
     margin: 0px auto ;
+    
 }
 .navigation i{
-  font-size: 4rem;
+  font-size: 5rem;
+  color: white;
   width: 50%;
   text-align: center;
   cursor: pointer;
-  
- 
 }
 
 

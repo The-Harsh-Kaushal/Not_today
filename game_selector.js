@@ -7,6 +7,13 @@ slides.forEach(
       slide.style.left  = 100*index +"%";
     }
 )
+document.addEventListener("keydown",(event)=>{
+    if(event.key == "ArrowLeft"){
+        prev();
+    }
+    if(event.key == "ArrowRight")
+    next();
+})
 function prev(){
   playsound();
     counter --;
