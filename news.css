@@ -12,7 +12,12 @@ body{
 }
  .image {
     padding: 2vh 0 2vh 7vw;
+    
 
+}
+
+.image img{
+    width: 88%;
 }
  .content{
     color: white;

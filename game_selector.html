@@ -17,7 +17,8 @@
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo">Not Today</a>
+        <a href="index.html" class="logo"><i class="fa-solid fa-skull-crossbones" style="color: #ebe5e5;"></i>
+            Not Today</a>
        <nav class="navbar" id="navbar">
         <div class="btn">
             <i class="fas fa-times close-btn" id="close-btn"></i>
@@ -35,23 +36,30 @@
     <div class="slider">
         <div class="card">
          <div class="img">
-           
+           <img src="images/earthquake.jpg" alt="">
          </div>
          <span class="title">Earthquake</span>
          </div>
 
         <div class="card">
          <div class="img">
-             <img src="images/background.jpg" alt="">
+             <img src="images/flood.jpg" alt="">
          </div>
-         <span class="title">Earthquake</span>
+         <span class="title">Flood</span>
+         </div>
+
+        <div class="card">
+         <div class="img">
+             <img src="images/cyclone.jpg" alt="">
+         </div>
+         <span class="title">Cyclone</span>
          </div>
         </div>
         <div class="navigation">
             <i class="fa fa-angle-left" onclick="prev()" ></i><i class="fa fa-angle-right" onclick="next()"></i>
         </div>43
-       
+    
     <script src="game_selector.js"></script>
-    <script src="navigation.js"></script>
+    <script src="reusenav.js"></script>
 </body>
 </html>

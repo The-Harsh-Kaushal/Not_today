@@ -24,9 +24,8 @@ body{
     height: 30vh;
     width: 100%;
     display: flex;
-    
-
-
+   justify-content: center;
+   align-items: center;
 }
 .big{
     height: 94vh;
@@ -44,7 +43,7 @@ body{
 }
 .game_mode_title{
     color: rgba(255, 255, 255, 0.8);
-    font-size: 9vh;
+    font-size: 7vh;
 
     font-family: 'Aleo', serif;
    margin: 5vh;
@@ -64,11 +63,13 @@ body{
     position: absolute;
     left: 10%;
     bottom: 17vh;
+    border-radius: 20px;
 }
 .play-btn{
     position: absolute;
     right: 20%;
     bottom: 17vh;
+    border-radius: 20px;
 }
 .text_an{
     display: block   !important;
@@ -79,10 +80,7 @@ body{
    
 }
 .one h2 span {
-
     color: rgba(225, 225, 225, 0.9);
-
-    text-shadow: 0 1px 2px red;
     display: none;
     font-size: 6vh;
     font-family: 'Aleo', serif;
@@ -90,13 +88,10 @@ body{
     padding: 4vh 2vw ;
 }
 .game_name{
-    color:  393939;
     text-shadow: 0 5px 10px red;
     font-family: 'Creepster', cursive;
-    padding-left: 22%;
-    font-size: 20vh;
-    
-    justify-content: center;
+    font-size: 19vh;
+   letter-spacing: 8px;
 }
 .today{
     margin-left: 5%;
@@ -109,11 +104,12 @@ body{
 
 @keyframes text_an{
     0%,100%{
-        transform: translateX(-100%);
+        transform: translateY(10vh);
         font-size: 3vh;
     }
+
     10%,90%{
-        transform: translateX(0);
+        transform: translateY(0);
         font-size: 6vh;
 
     }

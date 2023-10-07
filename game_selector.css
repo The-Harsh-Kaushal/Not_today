@@ -22,12 +22,17 @@ body{
     height: 75vh;
     overflow: hidden;
     border-radius: 25px 25px 2px 2px;
+   
 }
 .img img{
-    background-size: cover;
-    
+    width: 80vw;
+    height: 75vh;
+    transition: 0.5s;
 }
-
+.img img:hover{
+    width: 82vw;
+    height: 77vh;
+}
 .card{
     transition: 0.5s;
     text-align: center;

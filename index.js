@@ -1,6 +1,4 @@
-const close=document.getElementById("close-btn");
-const menu=document.getElementById("menu-btn");
-const navbar=document.getElementById("navbar");
+
 const  news=document.querySelector(".news").children;
 const game_modes=document.querySelector(".game_modes").children;
 
@@ -9,12 +7,7 @@ animate(), animate2();
 
 
 
-menu.addEventListener("click",()=>{
-    navbar.style.right="0";
-})
-close.addEventListener("click",()=>{
-    navbar.style.right="-100vw";
-})
+
 function animate(){
     if(index)
     news[index-1].classList.remove("text_an");

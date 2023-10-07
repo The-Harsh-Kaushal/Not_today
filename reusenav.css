@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Teko:wght@500&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 *{
     padding: 0;
     margin: 0;
@@ -11,13 +15,22 @@ html{
     font-size: 62.5%;
     font-family: 'Lora', serif;
 }
+.logo i{
+   padding-right: 1vw;
+   color: #0D0D0D !important;
+   text-shadow: 0 1px 10px red;
+
+}
 .logo{
-   font-family: 'Nabla', cursive;
-   font-size: 2.5rem;
+   margin-left: 3.7vw ;
+   font-family: 'Teko', sans-serif;
+   color: rgb(183, 198, 205);
+      font-size: 3rem;
    text-transform: capitalize;
 }
 
 header{
+    position: relative;
     padding: 15px 20px;
     display: flex;
     align-items: center;
@@ -26,8 +39,25 @@ header{
    justify-content:space-between ;
    box-shadow: 0 5px 10px black;
 }
+.scrol{
+   position: sticky !important;
+   top: 0;
+   height: 2.5vh;
+   background-color: black;
+   color: black;
+   .navbar a{
+      font-size: 13px;
+   }
+   .logo{
+      font-size: 2.7rem;
+   }
+   .logo i{
+      font-size: 25px;
+   }
+}
 .navbar a{
-    font-size: 25px;
+   font-family: 'Raleway', sans-serif;
+    font-size: 16px;
     margin:  0 0.5rem;
     color:  #C0C0C0;
     text-transform: uppercase;
@@ -37,7 +67,6 @@ header{
 }
 .navbar a:hover{
  color: #485461;
- text-decoration: dotted;
 }
 .btn{
    cursor: pointer;
@@ -45,9 +74,6 @@ header{
    display: none;
 }
 
-   
-      
-   
  
 @media(max-width : 780px){
  .btn{
